@@ -1,0 +1,29 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".idea",
+    ".git",
+    ".sass-cache",
+    "*.coffee",
+    "bower_components",
+    "node_modules/**/node_modules",
+    "test",
+    "docs"
+  ],
+  "events": {
+    "restart": "osascript -e 'display notification \"App restarted due to:\n'$FILENAME'\" with title \"nodemon\"'"
+  },
+  "verbose": true,
+  "stdout": false,
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "watch": [
+    "app/*.*",
+    "public/*.*"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js json coffee ejs html"
+}

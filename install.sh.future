@@ -1,0 +1,3 @@
+#!/bin/bash
+# install globle module
+npm install -g eslint bower

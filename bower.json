@@ -1,0 +1,28 @@
+{
+  "name": "basemvc",
+  "authors": [
+    "kangkk <365@kangkk.com>"
+  ],
+  "description": ".",
+  "main": "default.js",
+  "license": "MIT",
+  "homepage": "http://718.kang.com:3001/root/basemvc",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    ".sass-cache",
+    "bower_components",
+    "test",
+    "docs"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1",
+    "ember": "^2.18.2",
+    "bootstrap": "^4.4.1",
+    "JSL": "AMD#*",
+    "requirejs": "^2.3.6",
+    "commonjs": "^0.2.0"
+  }
+}

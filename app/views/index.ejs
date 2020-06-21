@@ -1,0 +1,17 @@
+<%- include('header') -%>
+<!-- bower:js -->
+<!-- endbower -->
+<p style="color: teal;">this is index</p>
+<h1><%-title %></h1>
+<p>Welcome to <%-title %></p>
+<p>Welcome to sfsdf</p>
+<div style="background: red">
+    <% for(var i in articles){ %>
+    <p>id is <%-articles[i].id %></p>
+    <p>id is <%-articles[i].title %></p>
+    <p>id is <%-articles[i].url %></p>
+    <p>id is <%-articles[i].createdAt %></p>
+    <p>id is <%-articles[i].updateAt %></p>
+    <% } %>
+</div>
+<%- include('footer') -%>
